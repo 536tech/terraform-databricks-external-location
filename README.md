@@ -16,7 +16,7 @@ The resource addresses above are part of the DataTF import contract. Do not rena
 ```hcl
 module "external_location" {
   source  = "536tech/external-location/databricks"
-  version = "0.1.0"
+  version = "1.0.0"
 
   name               = "lake_raw"
   url                = "abfss://raw@lake.dfs.core.windows.net/"
